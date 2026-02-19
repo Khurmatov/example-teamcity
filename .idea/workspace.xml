@@ -4,162 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd10f0c-a270-4473-a60d-6cc7349aa278" name="Changes" comment="правка версии" />
+    <list default="true" id="d95e24e2-6a1d-4923-b6a3-75ba1dfe112e" name="Changes" comment="teamcity" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="feature/add_reply" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Khurmatov&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:Khurmatov/example-teamcity.git&quot;,
-    &quot;accountId&quot;: &quot;b0fd421b-7448-444e-995a-6c51ea705042&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="39qcAq8JxzPxkBVZI20GxGG0AvQ" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/example-teamcity/images"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\example-teamcity\images" />
-      <recent name="C:\Users\User\IdeaProjects\example-teamcity" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\example-teamcity\images" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="example-teamcity" />
+      <module name="plaindoll" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="example-teamcity" />
+      <module name="plaindoll" />
       <option name="filePath" />
       <method v="2" />
     </configuration>
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="7cd10f0c-a270-4473-a60d-6cc7349aa278" name="Changes" comment="" />
-      <created>1771426900435</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1771426900435</updated>
-    </task>
     <task id="LOCAL-00001" summary="teamcity">
       <option name="closed" value="true" />
-      <created>1771426927104</created>
+      <created>1771498596649</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1771426927104</updated>
+      <updated>1771498596649</updated>
     </task>
     <task id="LOCAL-00002" summary="teamcity">
       <option name="closed" value="true" />
-      <created>1771429902195</created>
+      <created>1771498624737</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1771429902195</updated>
+      <updated>1771498624737</updated>
     </task>
-    <task id="LOCAL-00003" summary="teamcity">
-      <option name="closed" value="true" />
-      <created>1771495034054</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1771495034054</updated>
-    </task>
-    <task id="LOCAL-00004" summary="teamcity">
-      <option name="closed" value="true" />
-      <created>1771495836691</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1771495836691</updated>
-    </task>
-    <task id="LOCAL-00005" summary="teamcity">
-      <option name="closed" value="true" />
-      <created>1771496962139</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1771496962139</updated>
-    </task>
-    <task id="LOCAL-00006" summary="teamcity">
-      <option name="closed" value="true" />
-      <created>1771497076148</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1771497076148</updated>
-    </task>
-    <task id="LOCAL-00007" summary="правка weclomer">
-      <option name="closed" value="true" />
-      <created>1771497439761</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1771497439761</updated>
-    </task>
-    <task id="LOCAL-00008" summary="правка weclomer">
-      <option name="closed" value="true" />
-      <created>1771497736699</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1771497736699</updated>
-    </task>
-    <task id="LOCAL-00009" summary="правка версии">
-      <option name="closed" value="true" />
-      <created>1771497967958</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1771497967958</updated>
-    </task>
-    <task id="LOCAL-00010" summary="правка версии">
-      <option name="closed" value="true" />
-      <created>1771498474829</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1771498474831</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,8 +64,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="teamcity" />
-    <MESSAGE value="правка weclomer" />
-    <MESSAGE value="правка версии" />
-    <option name="LAST_COMMIT_MESSAGE" value="правка версии" />
+    <option name="LAST_COMMIT_MESSAGE" value="teamcity" />
   </component>
 </project>
