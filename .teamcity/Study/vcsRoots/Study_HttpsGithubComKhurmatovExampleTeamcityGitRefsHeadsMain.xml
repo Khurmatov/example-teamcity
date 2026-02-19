@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="b1515d62-d3b4-4250-95eb-bdb241abeff9" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2025.3/project-config.xsd">
+  <name>https://github.com/Khurmatov/example-teamcity.git#refs/heads/main</name>
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/main" />
+  <param name="secure:password" value="credentialsJSON:52b4563d-171c-4b1f-931d-97900cb0353b" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcity:branchSpec" value="refs/heads/*" />
+  <param name="url" value="https://github.com/Khurmatov/example-teamcity.git" />
+  <param name="useAlternates" value="AUTO" />
+</vcs-root>
+
