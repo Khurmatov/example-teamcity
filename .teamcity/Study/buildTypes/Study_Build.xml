@@ -61,6 +61,15 @@
     <vcs-settings>
       <vcs-entry-ref root-id="Study_HttpsGithubComKhurmatovExampleTeamcityGitRefsHeadsMain" />
     </vcs-settings>
+    <build-triggers>
+      <build-trigger id="TRIGGER_1" type="vcsTrigger">
+        <parameters>
+          <param name="branchFilter" value="+:*" />
+          <param name="enableQueueOptimization" value="true" />
+          <param name="quietPeriodMode" value="USE_DEFAULT" />
+        </parameters>
+      </build-trigger>
+    </build-triggers>
     <build-extensions>
       <extension id="perfmon" type="perfmon" />
     </build-extensions>
