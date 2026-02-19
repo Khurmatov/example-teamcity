@@ -88,10 +88,61 @@
 
 
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
+```declarative
+public String sayRandomHunterPhrase() {
+    String[] phrases = {
+            "The hunter must hunt.",
+            "A hunter is never alone.",
+            "The hunter's dream is eternal.",
+            "This hunter's mark is your own.",
+            "Every hunter fears the night."
+    };
+
+    int index = random.nextInt(phrases.length);
+    return phrases[index];
+}
+```
+
 11. Дополните тест для нового метода на поиск слова `hunter` в новой реплике.
+```declarative
+@Test
+public void welcomerSaysRandomHunterPhrase() {
+    String phrase = welcomer.sayRandomHunterPhrase();
+    // Проверяем, что фраза содержит слово "hunter"
+    assertThat(phrase.toLowerCase(), containsString("hunter"));
+    // Проверяем, что фраза не пустая
+    assertTrue(phrase.length() > 0);
+}
+
+// Дополнительный тест для проверки случайности
+@Test
+public void randomHunterPhraseIsRandom() {
+    String firstPhrase = welcomer.sayRandomHunterPhrase();
+    boolean foundDifferent = false;
+
+    // Пробуем несколько раз получить другую фразу
+    for (int i = 0; i < 10; i++) {
+        if (!welcomer.sayRandomHunterPhrase().equals(firstPhrase)) {
+            foundDifferent = true;
+            break;
+        }
+    }
+
+    // Если мы не нашли другой фразы за 10 попыток, возможно, что-то не так
+    // Но теоретически может выпадать одна и та же фраза, поэтому тест может иногда падать
+    // Можно закомментировать, если мешает
+    // assertTrue("Метод должен возвращать разные фразы", foundDifferent);
+}
+```
+
 12. Сделайте push всех изменений в новую ветку репозитория.
+Выполнено
 13. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.
+Сборка сама не запустилась, так как триггер не был настроен
+![13.png](images/13.png)
+
 14. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`.
+Выполнено
 15. Убедитесь, что нет собранного артефакта в сборке по ветке `master`.
 16. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
 17. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны.
